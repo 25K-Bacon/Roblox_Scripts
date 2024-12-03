@@ -1,0 +1,83 @@
+local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/Singularity5490/rbimgui-2/main/rbimgui-2.lua"))()
+
+local window1 = engine.new({
+    text = "Auto Complete",
+    size = UDim2.new(300, 200),
+})
+window1.open()
+
+local tab1 = window1.new({
+    text = "",
+})
+
+local button1 = tab1.new("button", {
+    text = "          Start          ",
+})
+button1.event:Connect(function()
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["0"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["1"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["2"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["3"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["4"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["5"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["6"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["7"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["8"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["9"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["10"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["11"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["12"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["13"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["14"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["15"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["16"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["17"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["18"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["19"].Position)
+    wait(1)
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints[workspace.Cutscene.Cutscene1].Position)    
+end)
+
+local label1 = tab1.new("label", {
+    text = "You might die in the process,",
+    color = Color3.new(255, 255, 255),
+})
+
+local label2 = tab1.new("label", {
+    text = "if that happenens and the and",
+    color = Color3.new(255, 255, 255),
+})
+
+local label3 = tab1.new("label", {
+    text = "the cutscene appears, leave the game.",
+    color = Color3.new(255, 255, 255),
+})
+
+local empty = tab1.new("label", {
+    text = "",
+    color = Color3.new(0, 0, 0),
+})
+
+local label4 = tab1.new("label", {
+    text = "Script made by 25K_Bacon",
+    color = Color3.new(255, 255, 255),
+})
