@@ -54,7 +54,7 @@ button1.event:Connect(function()
     wait(1)
     game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints["19"].Position)
     wait(1)
-    game.Players.LocalPlayer.Character:MoveTo(workspace.Checkpoints[workspace.Cutscene.Cutscene1].Position)    
+    game.Players.LocalPlayer.Character:MoveTo(workspace.Cutscene.Cutscene1.Position)    
 end)
 
 local label1 = tab1.new("label", {
@@ -63,12 +63,7 @@ local label1 = tab1.new("label", {
 })
 
 local label2 = tab1.new("label", {
-    text = "if that happenens and the and",
-    color = Color3.new(255, 255, 255),
-})
-
-local label3 = tab1.new("label", {
-    text = "the cutscene appears, leave the game.",
+    text = "if that happenens, leave.",
     color = Color3.new(255, 255, 255),
 })
 
@@ -81,3 +76,11 @@ local label4 = tab1.new("label", {
     text = "Script made by 25K_Bacon",
     color = Color3.new(255, 255, 255),
 })
+print("                                                           ")
+print("===========================================================")
+print("              You might die in the process                 ")
+print("              if that happenens, leave.                    ")
+print("                                                           ")
+print("              Script made by 25K_Bacon                     ")
+print("===========================================================")
+print("                                                           ")
